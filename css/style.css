@@ -1,0 +1,19 @@
+body {
+	background: url(../img/12_col.gif) center top repeat-y;
+	background-size: 90%;
+}
+
+#container {
+	width: 90%;
+	margin: 20px auto;
+	display: grid;
+
+	grid-template-columns: repeat(4, 1fr);
+	column-gap: 2%;
+	row-gap: 20px;
+}
+
+[class*="section-"] {
+	border: 1px solid #333;
+	min-height: 100px;
+}
