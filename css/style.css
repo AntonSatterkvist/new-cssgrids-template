@@ -147,7 +147,7 @@ body {
 	}
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
 	.section-2{
 		grid-column-start: 1;
 		grid-column-end: 13;
